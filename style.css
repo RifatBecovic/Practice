@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  background-color: #191927;
+  overflow: auto;
+}
+.header {
+  overflow: hidden;
+  background-color: #191920;
+  padding: 20px 10px;
+}
+.header a {
+  float: left;
+  color: #f0ffff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Calibri;
+  line-height: 25px;
+  border-radius: 5px;
+}
+#img1 {
+  width: 450px;
+  height: 49px;
+}
+.header a:hover {
+  border: 1px #00fa9a solid;
+  padding: 10px;
+  color: #f0ffff;
+}
+.header a.active {
+  background-color: #191920;
+  color: #f0ffff;
+}
+
+.header-right {
+  float: right;
+}
+.section1 h1 {
+  margin-top: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-family: calibri;
+  font-size: xx-large;
+  font-weight: bold;
+  color: #f0ffff;
+}
+.section1 span {
+  color: #00fa9a;
+}
+.section1 p {
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Calibri;
+  font-size: medium;
+  font-weight: bold;
+  color: #f0ffff;
+}
+/* width="450" height="39"> moonsama header */

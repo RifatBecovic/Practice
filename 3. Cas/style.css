@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: auto;
+  font-family: calibri;
+  width: 100%;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #191920;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+/* deo zaduzen za boju kada prelazimo preko home,about ili explore sekcije */
+.header a:hover {
+  border: 1px mediumspringgreen solid;
+  padding: 10px;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+/* deo zaduzen za izgled headera  */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+.header a {
+  font-family: calibri;
+}
+.h1 {
+  font-family: calibri;
+}
+.p1 {
+  font-family: calibri;
+}
+
+.h2 {
+  font-family: calibri;
+  font-size: x-large;
+  margin-left: 15px;
+}
+.h3 {
+  font-family: calibri;
+  font-size: xxx-large;
+  /* width koristimo kada zelimo da podelimo jedan naslov na dva reda */
+  width: 25%;
+  text-align: left;
+  /* margin left koristimo kada zelimo da nam u liniji budu dva razlicita paragrafa ili naslova */
+  margin-left: 15px;
+  /* line height koristimo za razmak izmedju dva reda istog teksta */
+  line-height: 40px;
+  /* position i bottom koristimo kada zelimo da deo donjeg paragrafa priblizimo gornjem paragrafu */
+  position: relative;
+  bottom: 23px;
+}
+.p2 {
+  font-family: Times;
+  font-size: large;
+  text-indent: 15px;
+  margin-left: 15px;
+  width: 40%;
+}
+.img1 {
+  margin-left: 15px;
+}
+.button1 {
+  font-family: calibri;
+  margin: 15px;
+  background-color: #191927;
+  float: left;
+  color: azure;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  border: 0px;
+}
+.button1:hover {
+  border: 1px mediumspringgreen solid;
+  padding: 12px;
+  color: azure;
+}
+.button1 {
+  float: none;
+  display: block;
+  text-align: left;
+}
+.section1 {
+}
