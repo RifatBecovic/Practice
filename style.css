@@ -62,4 +62,16 @@ body {
   font-weight: bold;
   color: #f0ffff;
 }
+.section2 img {
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+}
+.section2 img:hover {
+  display: block;
+  height: 700px;
+  content: url(./moonsamabrandkit/Moonsama132.png);
+}
 /* width="450" height="39"> moonsama header */
