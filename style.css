@@ -95,7 +95,7 @@ body {
   font-weight: bold;
   color: #00fa9a;
   margin-left: 25px;
-  padding-top: 50px;
+  padding-top: 170px;
 }
 .section3 h2 {
   font-family: calibri;
@@ -133,4 +133,39 @@ body {
 }
 #span1 {
   color: #00fa9a;
+}
+.section4 {
+  background-color: #191920;
+  border-radius: 25px;
+  position: relative;
+  margin-top: 75px;
+  margin-left: 75px;
+  width: 650px;
+  height: 500px;
+}
+.section4 form {
+  padding-top: 20px;
+  margin-left: 20px;
+}
+.section4 button {
+  font-family: calibri;
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  color: #f0ffff;
+}
+.section4 button:hover {
+  border: 1px solid #00fa9a;
+  border-radius: 5px;
+  padding: 10px;
+}
+.section4 span {
+  color: #00fa9a;
+  font-size: 25px;
+}
+.section5 {
+  width: 600px;
+  height: 400px;
+  background-color: red;
 }
