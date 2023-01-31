@@ -7,6 +7,9 @@ body {
   width: 100%;
   background-color: #191927;
   overflow: auto;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .header {
   overflow: hidden;
@@ -108,6 +111,7 @@ body {
   text-indent: 7px;
   color: #f0ffff;
   margin-left: 25px;
+  width: 50%;
 }
 .section3 img {
   width: 187.02px;
