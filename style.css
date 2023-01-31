@@ -23,7 +23,7 @@ body {
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
-  font-family: Calibri;
+  font-family: calibri;
   line-height: 25px;
   border-radius: 5px;
 }
@@ -45,43 +45,60 @@ body {
   float: right;
 }
 .section1 h1 {
-  margin-top: 100px;
+  margin: auto;
+  padding-top: 70px;
   text-align: center;
   text-decoration: none;
-  font-family: calibri;
+  font-family: system-ui;
   font-size: xx-large;
   font-weight: bold;
   color: #f0ffff;
+  width: 45%;
 }
-.section1 span {
+#spana {
   color: #00fa9a;
 }
 .section1 p {
   margin-top: 30px;
   text-align: center;
   text-decoration: none;
-  font-family: Calibri;
+  font-family: system-ui;
   font-size: medium;
   font-weight: bold;
   color: #f0ffff;
 }
-.section2 img {
+.section1 button {
+  background-color: #006663;
+  border: none;
+  border-radius: 6px;
   display: block;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 700px;
-  position: relative;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  margin: auto;
+  margin-top: 30px;
+  font-family: calibri;
+  font-weight: normal;
+  font-size: 18px;
+  color: #f0ffff;
+  padding: 4px 8px 4px 8px;
+  /* dodati on hover senku */
 }
-/* .section2 img:hover {
-  display: block;
-  height: 700px;
-  content: url(./moonsamabrandkit/Moonsama132.png);
-} potrebna promena*/
-/* width="450" height="39"> moonsama header */
+.section1 span {
+  color: black;
+  font-size: 18px;
+  /* centrirati span icon, promeniti size i boju */
+}
+.section2 img {
+  border-radius: 15px;
+  display: flex;
+  width: 1200px;
+  height: 800px;
+  margin: auto;
+  position: relative;
+  padding-top: 280px;
+  padding-bottom: 50px;
+  /* smanjiti sirinu gif-a */
+}
 .section3 {
+  /* dodati moonsama wiki sliku na desnoj strani div-a */
   background-image: url(./moonsamabrandkit/exomonsterbackground.png);
   position: relative;
   background-repeat: no-repeat;
@@ -163,9 +180,11 @@ body {
 .section4 span {
   color: #00fa9a;
   font-size: 25px;
+  /* centrirati span icons */
 }
 .section5 {
   width: 600px;
   height: 400px;
   background-color: red;
+  /* srediti position, z-index, bgimg,  */
 }
