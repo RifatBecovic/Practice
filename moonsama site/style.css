@@ -1,19 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 * {
+  margin: 0;
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   width: 100%;
-  background-color: #191927;
+  background-color: #171923;
   overflow: auto;
   position: relative;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: "Rubik";
 }
 .header {
   overflow: hidden;
-  background-color: #191920;
+  background-color: #1a202c;
   padding: 20px 10px;
 }
 .header a {
@@ -23,13 +26,16 @@ body {
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
-  font-family: calibri;
+  font-family: "Rubik";
   line-height: 25px;
   border-radius: 5px;
 }
 #img1 {
-  width: 450px;
-  height: 49px;
+  position: relative;
+  top: 10px;
+  right: 20px;
+  width: 250px;
+  height: 30px;
 }
 .header a:hover {
   border: 1px #00fa9a solid;
@@ -42,52 +48,85 @@ body {
 }
 
 .header-right {
+  display: flex;
   float: right;
+  position: relative;
+  right: 350px;
+}
+.header-rightbuttons button {
+  width: 160px;
+  height: 40px;
+  color: #f0ffff;
+  font-family: "Rubik";
+  font-size: 12px;
+  background-color: #006663;
+  position: relative;
+  float: right;
+  z-index: 10;
+  bottom: 65px;
+  right: 10px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.header-rightbuttons a {
+  text-decoration: none;
+  color: #f0ffff;
+}
+.icon {
+  color: black;
+  font-size: 12px;
+  padding-left: 5px;
 }
 .section1 h1 {
   margin: auto;
   padding-top: 70px;
   text-align: center;
   text-decoration: none;
-  font-family: system-ui;
-  font-size: xx-large;
+  font-family: "Rubik";
+  font-size: 55px;
   font-weight: bold;
   color: #f0ffff;
-  width: 45%;
+  width: 70%;
 }
 #spana {
   color: #00fa9a;
-  font-size: xx-large;
+  font-size: 60px;
 }
 .section1 p {
   margin-top: 30px;
   text-align: center;
   text-decoration: none;
-  font-family: system-ui;
-  font-size: medium;
+  font-family: "Rubik";
+  /* font-size: ; */
   font-weight: bold;
   color: #f0ffff;
 }
 .section1 button {
-  background-color: #00fa9a;
+  background-color: #006663;
   border: none;
   border-radius: 6px;
   display: block;
   margin: auto;
   margin-top: 30px;
-  font-family: calibri;
+  font-family: "Rubik";
   font-weight: normal;
   font-size: 18px;
   color: #f0ffff;
-  padding: 6px 10px 6px 10px;
+  width: 280px;
+  height: 40px;
+  cursor: pointer;
+  /* padding: 6px 10px 6px 10px; */
   /* dodati on hover senku */
 }
 .section1 span {
   color: black;
   font-size: 18px;
+  padding-left: 5px;
   /* centrirati span icon, promeniti size i boju */
 }
-.section2 img {
+/* .section2 img {
   border-radius: 15px;
   display: flex;
   width: 1200px;
@@ -97,12 +136,11 @@ body {
   padding-top: 280px;
   padding-bottom: 50px;
   /* smanjiti sirinu gif-a */
-}
 .section2 video {
-  margin-top: 50px;
-  margin-bottom: 30px;
-  position: relative;
-  left: 27%;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  width: 80%;
+  display: flex;
 }
 video {
   margin: auto;
@@ -117,7 +155,7 @@ video {
   height: 700px;
 }
 .section3 h1 {
-  font-family: calibri;
+  font-family: "Rubik";
   font-size: 25px;
   font-weight: bold;
   color: #00fa9a;
@@ -125,34 +163,37 @@ video {
   padding-top: 170px;
 }
 .section3 h2 {
-  font-family: calibri;
-  font-size: xx-large;
+  font-family: "Rubik";
+  font-size: 40px;
   font-weight: bold;
   color: #f0ffff;
   margin-left: 25px;
-  line-height: 10px;
+  line-height: 35px;
+  width: 25%;
 }
 .section3 p {
-  font-family: calibri;
+  font-family: "Rubik";
   font-size: 18px;
   text-indent: 7px;
   color: #f0ffff;
   margin-left: 25px;
-  width: 50%;
+  width: 30%;
+  margin-top: 5px;
 }
 .section3 img {
   width: 187.02px;
   height: 40px;
+  margin-top: 5px;
   margin-left: 25px;
 }
 .section3 button {
   font-size: 18px;
-  font-family: calibri;
+  font-family: "Rubik";
   background-color: transparent;
   border: none;
   color: #f0ffff;
   margin-left: 25px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .section3 button:hover {
   border: 1px solid #00fa9a;
@@ -161,21 +202,49 @@ video {
 #span1 {
   color: #00fa9a;
 }
-.section4 {
-  background-color: #191920;
-  border-radius: 25px;
+.ecoilustration img {
+  float: right;
+  width: 500px;
+  height: 80vh;
+  display: flex;
+  z-index: 10;
   position: relative;
-  margin-top: 75px;
-  margin-left: 75px;
+  bottom: 65vh;
+  align-self: flex-start;
+}
+.moonsamadoctor {
+  width: 700px;
+  height: 900px;
+  background-image: url(./moonsamabrandkit/moonsamadoctor.png);
+  background-size: 700px 750px;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  /* display: flex; */
+  float: right;
+  position: relative;
+  z-index: 10;
+  left: 15rem;
+  bottom: 5vh;
+  /* left: 12vw; */
+  /* srediti position, z-index, bgimg,  */
+}
+.section4 {
+  background-color: #1a202c;
+  border-radius: 16px;
+  position: absolute;
+  left: 1rem;
+  top: 280vh;
+  z-index: 25;
   width: 650px;
-  height: 500px;
+  height: 550px;
+  /* display: flex; */
 }
 .section4 form {
   padding-top: 20px;
   margin-left: 20px;
 }
 .section4 button {
-  font-family: calibri;
+  font-family: "Rubik";
   font-size: 25px;
   background-color: transparent;
   border: none;
@@ -192,9 +261,50 @@ video {
   font-size: 25px;
   /* centrirati span icons */
 }
-.section5 {
-  width: 600px;
-  height: 400px;
-  background-color: red;
-  /* srediti position, z-index, bgimg,  */
+.whyus {
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  background-image: url(./moonsamabrandkit/exosamabirdbackground.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 1000px;
+}
+.whyustext {
+  margin-top: 400px;
+}
+.whyustext h1 {
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  /* justify-content: center; */
+  font-size: 40px;
+  font-family: "Rubik";
+  text-transform: uppercase;
+  color: #f0ffff;
+  width: 60%;
+}
+.whyustext span {
+  color: #00fa9a;
+}
+.customizerexample {
+  width: 100%;
+  height: 80vh;
+  background-image: url(./moonsamabrandkit/customizerexample.jpg);
+  background-size: 100% 80vh;
+}
+.milestones {
+  font-family: "Rubik";
+  position: relative;
+  top: 30px;
+}
+.milestones h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #f0ffff;
+}
+.milestones h1 {
+  text-align: center;
+  font-size: 22px;
+  color: #00fa9a;
 }
