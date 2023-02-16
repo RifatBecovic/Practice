@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* POTREBNO ODRADITI FULL RESPONSIVE ZA SAJT */
+body {
+  background-color: #09152a;
+  font-family: "Rubik";
+  color: #ffffff;
+  /* cursor: none; */
+  /* display: flex; */
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  overflow-y: initial;
+}
+#background-video {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.header-main img {
+  width: 320px;
+  height: 120px;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+.header-main button {
+  float: right;
+  position: absolute;
+  bottom: 87vh;
+  right: 40px;
+  width: 160px;
+  height: 40px;
+  border: 1px solid rgba(123, 122, 122, 1);
+  background-color: #2e67d1;
+  border-radius: 50px;
+  font-size: 18px;
+  font-family: "Rubik";
+  color: #ffffff;
+  cursor: pointer;
+}
+.header-main span {
+  padding-right: 5px;
+}
+.section-playnow button {
+  width: 300px;
+  height: 70px;
+  position: absolute;
+  bottom: 15vh;
+  left: 42%;
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "Rubik";
+  font-weight: bold;
+  background-color: #c21644;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  box-shadow: 0px 6px 7px 6px rgba(90, 0, 24, 0.9);
+  cursor: pointer;
+}
+.section-playnow button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.pondsama-logo img {
+  width: 60vw;
+  border: 3px solid rgba(123, 122, 122, 1);
+  border-radius: 18px;
+  position: absolute;
+  top: 100vh;
+  left: 20%;
+}
+.fish-cards img {
+  clear: both;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 10vw;
+  top: 450px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.fish1 {
+  position: relative;
+  /* top: 1000px; */
+  display: flex;
+  float: left;
+}
+.fish2 {
+  position: relative;
+  z-index: 10;
+  right: 50px;
+  top: 150px;
+  display: flex;
+}
+.pondsama-info {
+  float: right;
+  position: relative;
+  right: 10px;
+  top: 260px;
+  font-size: 40px;
+  font-family: "Rubik";
+  font-weight: 550;
+  clear: both;
+}
+.icon {
+  color: #00fff8;
+  padding-right: 15px;
+}
+.pondsama-info p {
+  margin-top: 30px;
+}
+.pondsama-info p:nth-of-type(3) {
+  margin-top: 25px;
+}
+.button-learnmore button {
+  width: 300px;
+  height: 70px;
+  position: absolute;
+  top: 220vh;
+  left: 40%;
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "Rubik";
+  font-weight: bold;
+  background-color: #c21644;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  box-shadow: 0px 6px 7px 6px rgba(90, 0, 24, 0.9);
+  cursor: pointer;
+}
+.howtostart h1 {
+  position: absolute;
+  font-size: 40px;
+  top: 240vh;
+  left: 38%;
+}
+.howtostart span {
+  color: #00fff8;
+}
+.cards {
+  position: absolute;
+  left: 25%;
+  top: 200vh;
+  display: flex;
+  align-content: center;
+}
+.card1 {
+  position: absolute;
+}
+.card2 {
+  position: absolute;
+  left: 350px;
+}
+.lastsection {
+  display: flex;
+  /* justify-content: space-evenly; */
+  position: relative;
+  left: 26.5%;
+  top: 170vh;
+  font-size: 40px;
+  font-weight: 550;
+  text-align: center;
+}
+.button-play button {
+  width: 300px;
+  height: 70px;
+  position: absolute;
+  top: 330vh;
+  left: 40%;
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "Rubik";
+  font-weight: bold;
+  background-color: #c21644;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  box-shadow: 0px 6px 7px 6px rgba(90, 0, 24, 0.9);
+  cursor: pointer;
+}
+.footer {
+  position: absolute;
+  top: 350vh;
+  width: 100%;
+  height: 500px;
+  background-color: #122954;
+}
+.footer h1 {
+  position: absolute;
+  font-size: 40px;
+  left: 37.5%;
+  top: 30px;
+}
+.footer span {
+  color: #00fff8;
+}
+.footer button {
+  border: 1px solid transparent;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #00fff8;
+  top: 220px;
+  left: 38%;
+}
+.footer button:nth-of-type(2) {
+  background-color: #497bd7;
+  position: relative;
+  left: 800px;
+}
